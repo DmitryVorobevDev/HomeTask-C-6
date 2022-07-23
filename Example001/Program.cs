@@ -3,7 +3,7 @@
 void GetResult (int count)
 {
     
-    string valueFromConsole = Console.ReadLine ();
+    string valueFromConsole = Console.ReadLine();
     if (int.TryParse(valueFromConsole, out int number))
     {
         if (number > 0)
